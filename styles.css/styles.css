@@ -180,9 +180,10 @@ ul.show{
     height: 60px;
     margin-left: 6em;
     font-size: 16px;
-    font-family: var(--font-nueva);
+    font-family: var(--font-two);
     font-weight: bold;
     margin-top: 2em;
+    background-color:#f366e0b0;
     
 
 }
@@ -285,6 +286,7 @@ ul.show{
     margin-top: 7em;
     margin-bottom: 7em;
     
+    
 }
 
 .button__galery{
@@ -294,6 +296,7 @@ ul.show{
     font-size: 1.5em;
     font-family: var(--font-nueva);
     margin-top: 1em;
+    
 }
 
 .button__galery a{
@@ -728,8 +731,37 @@ ul.show{
         grid-row: 2;
         margin-top: 3em;
     }
+
+    .middle__title{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7em;
+        margin-bottom: 7em;
+        padding-left: 2em;
+        
+        
+    }
+    .tittle__tres{
+        padding-right: 0.5em;
+    }
     
+    .button__galery{
+        margin-right: 2em;
+    }
     
+    .contacto__title{
+        margin-top: 6em;
+        font-weight: bold;
+        margin-right: 1em;
+    }
+
+    .side__titulo{
+
+        margin-top: 2em;
+    }
 }
 
 @media screen and (max-width: 858px) and (orientation: landscape) {
