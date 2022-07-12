@@ -202,11 +202,11 @@ ul.show{
     font-size: 1.5em;
     border: 1px solid var(--secondary);
     border-radius: 50%;
+    transition: ease-in .5s;
     
 }
 
 .footer__text i:hover{
-    transition: ease-in .5s;
     font-size:2em ;
 }
 
@@ -875,7 +875,9 @@ ul.show{
         margin-top: 2em;
     }
 
-    
+   p.tittle__parrafo{
+    padding-right: 0.5em;
+   }
 }
 
 @media screen and (max-width: 858px) and (orientation: landscape) {
